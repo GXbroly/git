@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth *)",
+      "Bash(git remote *)",
+      "Bash(curl -sI https://github.com/GXbroly/git.git)",
+      "Bash(git config *)",
+      "Bash(ping -c 1 github.com)",
+      "Bash(ping -n 1 github.com)",
+      "Bash(ls ~/.ssh/id_*.pub 2>/dev/null || echo \"No SSH public key found\")",
+      "Bash(winget --version)",
+      "Bash(mkdir -p ~/.local/bin)",
+      "Read(//c/Users/dell/.local/bin/**)",
+      "Bash(curl -L -o gh_2.92.0_windows_amd64.zip https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_windows_amd64.zip)",
+      "Bash(unzip -o gh_2.92.0_windows_amd64.zip)",
+      "Bash(cp gh_2.92.0_windows_amd64/bin/gh.exe .)",
+      "Bash(curl -I https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_windows_amd64.zip)",
+      "Bash(find \"/c/Program Files/GitHub CLI\" -name \"gh.exe\" 2>/dev/null)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
+    ]
+  }
+}

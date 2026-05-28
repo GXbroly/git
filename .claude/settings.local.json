@@ -19,7 +19,14 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
-      "Bash(git revert *)"
+      "Bash(git revert *)",
+      "Bash(ls /e/Githubtest/.git/worktrees/)",
+      "Read(//e/Githubtest/**)",
+      "Bash(mv .claude/worktrees/blissful-wozniak-b9d28e .claude/worktrees/TEST3)",
+      "Bash(cd /e)",
+      "Bash(mv /e/Githubtest/.claude/worktrees/blissful-wozniak-b9d28e /e/Githubtest/.claude/worktrees/TEST3)",
+      "Bash(cmd //c \"move E:\\\\Githubtest\\\\.claude\\\\worktrees\\\\blissful-wozniak-b9d28e E:\\\\Githubtest\\\\.claude\\\\worktrees\\\\TEST3\")",
+      "Bash(git commit *)"
     ]
   }
 }

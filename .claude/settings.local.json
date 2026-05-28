@@ -27,6 +27,8 @@
       "Bash(mv /e/Githubtest/.claude/worktrees/blissful-wozniak-b9d28e /e/Githubtest/.claude/worktrees/TEST3)",
       "Bash(cmd //c \"move E:\\\\Githubtest\\\\.claude\\\\worktrees\\\\blissful-wozniak-b9d28e E:\\\\Githubtest\\\\.claude\\\\worktrees\\\\TEST3\")",
       "Bash(git commit *)"
+      "Bash(git checkout *)",
+      "Bash(git branch *)"
     ]
   }
 }
